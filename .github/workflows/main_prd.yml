@@ -1,0 +1,66 @@
+name: prd-FLOW
+
+on:
+  workflow_dispatch:
+   
+
+jobs:
+  dev:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    environment: Staging
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Deploy to Heroku
+      uses: AkhileshNS/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: 74b5b90f-56b8-4b6e-b3e3-6b9c2ce805e0
+        heroku_email: plazo1975@gmail.com
+        heroku_app_name: demo-appi-acc
+        buildpack: https://github.com/jincod/dotnetcore-buildpack
+        branch: main
+        dontuseforce: true
+        dontautocreate: true
+        usedocker: false
+        docker_heroku_process_type: web
+  acc:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    environment: Staging
+    needs: dev
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Deploy to Heroku
+      uses: AkhileshNS/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: 74b5b90f-56b8-4b6e-b3e3-6b9c2ce805e0
+        heroku_email: plazo1975@gmail.com
+        heroku_app_name: demo-appi-prd
+        buildpack: https://github.com/jincod/dotnetcore-buildpack
+        branch: main
+        dontuseforce: true
+        dontautocreate: true
+        usedocker: false
+        docker_heroku_process_type: web
