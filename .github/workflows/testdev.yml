@@ -10,6 +10,7 @@ jobs:
     environment: Development
 
     steps:
+    - uses: actions/checkout@v2
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
