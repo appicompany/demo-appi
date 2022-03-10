@@ -1,4 +1,4 @@
-name: dev-FLOW
+name: Manual_Dev
 
 on:
   workflow_dispatch
