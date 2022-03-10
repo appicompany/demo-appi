@@ -1,7 +1,8 @@
 name: prd-FLOW
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+   
 
 jobs:
   dev:
