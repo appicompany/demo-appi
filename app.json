@@ -1,0 +1,19 @@
+{
+  "name": "appi",
+  "scripts": {},
+  "env": {  
+},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku-community/apt.tgz"
+    }
+ 
+  ],
+  "stack": "heroku-20"
+}
