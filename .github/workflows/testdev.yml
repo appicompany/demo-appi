@@ -15,9 +15,9 @@ jobs:
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
-        heroku_api_key: 74b5b90f-56b8-4b6e-b3e3-6b9c2ce805e0
+        heroku_api_key: ${{secrets.HEROKU.API.KEY}}
         heroku_email: plazo1975@gmail.com
-        heroku_app_name: demo-appi-dev
+        heroku_app_name: ${{secrets.HEROKU.APP.NAME}}
         buildpack: https://github.com/jincod/dotnetcore-buildpack
         branch: dev
         dontuseforce: true
