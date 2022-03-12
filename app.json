@@ -1,8 +1,12 @@
 {
   "name": "appi",
   "scripts": {},
-  "env": {  
-},
+  "env": {
+  
+  "CCBR_Password": {
+    "value": "xxxxxx"
+
+  },
   "formation": {
     "web": {
       "quantity": 1
@@ -13,7 +17,7 @@
     {
       "url": "https://github.com/jincod/dotnetcore-buildpack"
     }
- 
+
   ],
   "stack": "heroku-20"
 }
