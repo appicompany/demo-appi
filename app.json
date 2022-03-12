@@ -4,7 +4,7 @@
   "env": {
 
     "CCBR_Password": {
-      "value": "xxxxxx"
+      "value": ${{secrets.HEROKU.API.KEY}}
     }
   },
   "formation": {
