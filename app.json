@@ -2,10 +2,10 @@
   "name": "appi",
   "scripts": {},
   "env": {
-  
-  "CCBR_Password": {
-    "value": "xxxxxx"
 
+    "CCBR_Password": {
+      "value": "xxxxxx"
+    }
   },
   "formation": {
     "web": {
