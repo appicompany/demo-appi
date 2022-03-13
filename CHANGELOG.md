@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/appicompany/demo-appi/compare/v0.2.0...v0.2.1) (2022-03-13)
+
+
+### Bug Fixes
+
+* test bumping number ([fa6e571](https://github.com/appicompany/demo-appi/commit/fa6e571b01fdc4ad5fc0868b8cbedcf7c82e7e0c))
+
+
+
 # [0.2.0](https://github.com/appicompany/demo-appi/compare/v0.1.1...v0.2.0) (2022-03-13)
 
 
