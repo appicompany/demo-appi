@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/appicompany/demo-appi/compare/v0.1.1...v0.2.0) (2022-03-13)
+
+
+### Features
+
+* testing release notes ([8bdd976](https://github.com/appicompany/demo-appi/commit/8bdd976a18dedc2c9f21735bf8c7594d4db56374))
+
+
+
 ## [0.1.1](https://github.com/appicompany/demo-appi/compare/v0.1.0...v0.1.1) (2022-03-13)
 
 
