@@ -1,9 +1,9 @@
 name: prd-FLOW
 
 on:
-  push:
-    tags:
-      - v.*
+  release:
+     types: published
+     
 jobs:
   acc:
     name: Deploy to Staging
