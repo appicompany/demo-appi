@@ -2,9 +2,8 @@ name: prd-FLOW
 
 on:
   push:
-    branches: [ main ]
-    tags: 
-     - "v*"
+    branches:
+      - 'releases/**'
 jobs:
   acc:
     name: Deploy to Staging
