@@ -1,3 +1,12 @@
+## [1.0.9](https://github.com/appicompany/demo-appi/compare/v1.0.8...v1.0.9) (2022-03-14)
+
+
+### Bug Fixes
+
+* ssssssssss ([3b41866](https://github.com/appicompany/demo-appi/commit/3b418660d3369c28b508258623a0c8fd9509d791))
+
+
+
 ## [1.0.8](https://github.com/appicompany/demo-appi/compare/v1.0.7...v1.0.8) (2022-03-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * added test5 ([1d6e731](https://github.com/appicompany/demo-appi/commit/1d6e731f9aea6029b62046fe107daa4b068dbd6c))
-
-
-
-## [1.0.4](https://github.com/appicompany/demo-appi/compare/v1.0.3...v1.0.4) (2022-03-14)
-
-
-### Bug Fixes
-
-* added test 4 line ([c2f3c7c](https://github.com/appicompany/demo-appi/commit/c2f3c7c713ff943c5263279f4aa91a8c56408cb6))
 
 
 
