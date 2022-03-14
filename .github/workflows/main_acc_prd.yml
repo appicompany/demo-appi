@@ -10,7 +10,17 @@ jobs:
     environment: Staging
 
     steps:
-   
+    - uses: actions/checkout@v2
+   # - name: Setup .NET
+   #   uses: actions/setup-dotnet@v1
+   #   with:
+   #     dotnet-version: 6.0.x
+   # - name: Restore dependencies
+   #   run: dotnet restore
+   # - name: Build
+   #   run: dotnet build --no-restore
+   # - name: Test
+   #   run: dotnet test --no-build --verbosity normal
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
@@ -26,12 +36,21 @@ jobs:
   prd:
     name: Deploy to Production
     runs-on: ubuntu-latest
-    environment: Staging
+    environment: Production
     needs: acc
 
     steps:
     - uses: actions/checkout@v2
-   
+    # - name: Setup .NET
+   #   uses: actions/setup-dotnet@v1
+   #   with:
+   #     dotnet-version: 6.0.x
+   # - name: Restore dependencies
+   #   run: dotnet restore
+   # - name: Build
+   #   run: dotnet build --no-restore
+   # - name: Test
+   #   run: dotnet test --no-build --verbosity normal
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
