@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/appicompany/demo-appi/compare/v1.0.5...v1.0.6) (2022-03-14)
+
+
+### Bug Fixes
+
+* clean up welcome screen ([70aa926](https://github.com/appicompany/demo-appi/commit/70aa926acf73617cd429151631b2796d574a653d))
+
+
+
 ## [1.0.5](https://github.com/appicompany/demo-appi/compare/v1.0.4...v1.0.5) (2022-03-14)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * [DA-14] fix stuff ([05bce69](https://github.com/appicompany/demo-appi/commit/05bce691e124ec29ac084b5e871ca409a0b713f7))
-
-
-
-## [1.0.1](https://github.com/appicompany/demo-appi/compare/v1.0.0...v1.0.1) (2022-03-14)
-
-
-### Bug Fixes
-
-* [DA-13] testing flow again!! ([e2f53b5](https://github.com/appicompany/demo-appi/commit/e2f53b50d88c602271dda59307127fefeff720ea))
 
 
 
