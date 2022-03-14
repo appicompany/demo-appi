@@ -1,3 +1,25 @@
+# [1.0.0](https://github.com/appicompany/demo-appi/compare/v0.2.1...v1.0.0) (2022-03-14)
+
+
+### Bug Fixes
+
+* [DA-10] clean up welcome screen ([e1c4ff0](https://github.com/appicompany/demo-appi/commit/e1c4ff02a125ad52a876fd8afdb5f4c8f850fce9))
+* [DA-12]  test release notes creation ([5bb1486](https://github.com/appicompany/demo-appi/commit/5bb14869b41b16be95c7456970f5ff1674d8f434))
+* DA-10 test different notation for jira item ([4266fd2](https://github.com/appicompany/demo-appi/commit/4266fd2cce65e712f05d286c299b47b84e690dc2))
+* DA-11 test again with correct number ([1d70b9d](https://github.com/appicompany/demo-appi/commit/1d70b9d5e948fc630c1cbe96161e3ce5808a436e))
+
+
+### Features
+
+* tsting agian ([a71e54e](https://github.com/appicompany/demo-appi/commit/a71e54e2f2c0b049de9aef74958ea97288d9cf28))
+
+
+### BREAKING CHANGES
+
+* see what happens
+
+
+
 ## [0.2.1](https://github.com/appicompany/demo-appi/compare/v0.2.0...v0.2.1) (2022-03-13)
 
 
@@ -26,7 +48,7 @@
 
 
 
-# [0.1.0](https://github.com/appicompany/demo-appi/compare/v1.0.0...v0.1.0) (2022-03-13)
+# [0.1.0](https://github.com/appicompany/demo-appi/compare/90b2cd744751ed5c57be3ad12d8a64cc410ef8df...v0.1.0) (2022-03-13)
 
 
 ### Reverts
