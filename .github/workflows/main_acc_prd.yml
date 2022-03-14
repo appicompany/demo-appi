@@ -1,4 +1,4 @@
-name: prd-FLOW
+name: prd-manual-FLOW
 
 on:
   workflow_dispatch
