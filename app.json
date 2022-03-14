@@ -1,12 +1,7 @@
 {
   "name": "appi",
   "scripts": {},
-  "env": {
-
-    "CCBR_Password": {
-      "value": ${{secrets.HEROKU.API.KEY}}
-    }
-  },
+  "env": {},
   "formation": {
     "web": {
       "quantity": 1
