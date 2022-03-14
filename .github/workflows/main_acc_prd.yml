@@ -4,23 +4,13 @@ on:
   workflow_dispatch
 
 jobs:
-  dev:
+  acc:
     name: Deploy to Staging
     runs-on: ubuntu-latest
     environment: Staging
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+   
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
@@ -33,24 +23,15 @@ jobs:
         dontautocreate: true
         usedocker: false
         docker_heroku_process_type: web
-  acc:
+  prd:
     name: Deploy to Production
     runs-on: ubuntu-latest
     environment: Staging
-    needs: dev
+    needs: acc
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+   
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
