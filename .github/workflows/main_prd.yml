@@ -1,9 +1,9 @@
 name: prd-FLOW
 
 on:
-  workflow_dispatch:
-   
-
+  push:
+    branches:
+      - 'releases/**'
 jobs:
   acc:
     name: Deploy to Staging
