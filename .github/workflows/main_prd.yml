@@ -1,4 +1,4 @@
-name: prd-FLOW
+name: Auto deploy acc --> prd
 
 on:
   release:
