@@ -1,4 +1,4 @@
-name: prd-manual-FLOW
+name: Manual deploy acc --> prd
 
 on:
   workflow_dispatch
