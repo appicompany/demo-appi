@@ -1,3 +1,13 @@
+## [1.0.11](https://github.com/appicompany/demo-appi/compare/v1.0.10...v1.0.11) (2022-03-15)
+
+
+### Bug Fixes
+
+* fix stuff and push to main instead of pull request ([0b97d42](https://github.com/appicompany/demo-appi/commit/0b97d4292bafe7644e56db3bf337d7b2ffc1e76f))
+* test full flow ([3a0a1e8](https://github.com/appicompany/demo-appi/commit/3a0a1e8329f959a76bcc6667f496d13bda8b76f8))
+
+
+
 ## [1.0.10](https://github.com/appicompany/demo-appi/compare/v1.0.9...v1.0.10) (2022-03-14)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * test flow ([7733c13](https://github.com/appicompany/demo-appi/commit/7733c13b3ef84621cd15e6e4d025751eb11ed0fc))
-
-
-
-## [1.0.6](https://github.com/appicompany/demo-appi/compare/v1.0.5...v1.0.6) (2022-03-14)
-
-
-### Bug Fixes
-
-* clean up welcome screen ([70aa926](https://github.com/appicompany/demo-appi/commit/70aa926acf73617cd429151631b2796d574a653d))
 
 
 
