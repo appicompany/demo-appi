@@ -1,8 +1,8 @@
-name: dev-FLOW
+name: Auto deploy dev
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ develop ]
 
 jobs:
   Dev:
@@ -18,9 +18,9 @@ jobs:
       with:
         heroku_api_key: 74b5b90f-56b8-4b6e-b3e3-6b9c2ce805e0
         heroku_email: plazo1975@gmail.com
-        heroku_app_name: demo-appi-dev
+        heroku_app_name: demo-appi1-tst
         buildpack: https://github.com/jincod/dotnetcore-buildpack
-        branch: dev
+        branch: develop
         dontuseforce: true
         dontautocreate: true
         usedocker: false
