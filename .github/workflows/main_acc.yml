@@ -1,8 +1,8 @@
 name: Auto deploy to Staging
 
 on:
-  push:
-    branches: [ staging ]
+  release:
+     types: published
 
 jobs:
   Dev:
@@ -20,7 +20,7 @@ jobs:
         heroku_email: plazo1975@gmail.com
         heroku_app_name: demo-appi1-acc
         buildpack: https://github.com/jincod/dotnetcore-buildpack
-        branch: staging
+       # branch: staging
         dontuseforce: true
         dontautocreate: true
         usedocker: false
