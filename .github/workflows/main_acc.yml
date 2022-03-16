@@ -1,26 +1,26 @@
-name: Auto deploy to develoment
+name: Auto deploy to Staging
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ staging ]
 
 jobs:
   Dev:
-    name: Deploy to Development
+    name: Deploy to Staging
     runs-on: ubuntu-latest
-    environment: Development
+    environment: Staging
 
     steps:
     - uses: actions/checkout@v2
    
-    - name: Deploy to Heroku
+    - name: Deploy to Heroku Staging
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
         heroku_api_key: 74b5b90f-56b8-4b6e-b3e3-6b9c2ce805e0
         heroku_email: plazo1975@gmail.com
-        heroku_app_name: demo-appi1-tst
+        heroku_app_name: demo-appi1-acc
         buildpack: https://github.com/jincod/dotnetcore-buildpack
-        branch: develop
+        branch: staging
         dontuseforce: true
         dontautocreate: true
         usedocker: false
