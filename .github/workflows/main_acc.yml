@@ -29,6 +29,7 @@ jobs:
     name: Deploy to production
     runs-on: ubuntu-latest
     environment: Production
+    needs: acc
 
     steps:
     - uses: actions/checkout@v2
