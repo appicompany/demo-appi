@@ -1,4 +1,4 @@
-name: Auto deploy dev
+name: Auto deploy to develoment environment
 
 on:
   push:
