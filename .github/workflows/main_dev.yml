@@ -2,7 +2,7 @@ name: Auto deploy to develoment
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ test]
 
 jobs:
   Dev:
@@ -20,7 +20,7 @@ jobs:
         heroku_email: plazo1975@gmail.com
         heroku_app_name: demo-appi1-tst
         buildpack: https://github.com/jincod/dotnetcore-buildpack
-        branch: develop
+        branch: test
         dontuseforce: true
         dontautocreate: true
         usedocker: false
