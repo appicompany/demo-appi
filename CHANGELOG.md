@@ -1,3 +1,12 @@
+## [1.0.14](https://github.com/appicompany/demo-appi/compare/v1.0.13...v1.0.14) (2022-03-17)
+
+
+### Bug Fixes
+
+* [DA-21] worked on issue E ([2e0d0bc](https://github.com/appicompany/demo-appi/commit/2e0d0bc0d66dffb47fb9bc6be9c38207f41e88e7))
+
+
+
 ## [1.0.13](https://github.com/appicompany/demo-appi/compare/v1.0.12...v1.0.13) (2022-03-17)
 
 
@@ -34,15 +43,6 @@
 ### Bug Fixes
 
 * latest ([2fa8848](https://github.com/appicompany/demo-appi/commit/2fa8848d79714937d43ad19d1a207a36b592ac99))
-
-
-
-## [1.0.9](https://github.com/appicompany/demo-appi/compare/v1.0.8...v1.0.9) (2022-03-14)
-
-
-### Bug Fixes
-
-* ssssssssss ([3b41866](https://github.com/appicompany/demo-appi/commit/3b418660d3369c28b508258623a0c8fd9509d791))
 
 
 
